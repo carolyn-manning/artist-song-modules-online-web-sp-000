@@ -21,14 +21,14 @@ class Artist
     @@artists
   end
 
-  Memorable::InstanceMethods
+  include Memorable::InstanceMethods
 
   def initialize
    super
    @songs = []
   end
 
-  Memorable::ClassMethods
+  extend Memorable::ClassMethods
 
   include Paramable
 
