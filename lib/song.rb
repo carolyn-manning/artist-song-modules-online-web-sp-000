@@ -19,6 +19,12 @@ class Song
   end
 
   Memorable::InstanceMethods
+
+  def initialize
+   super
+   @songs = []
+ end
+
   Memorable::ClassMethods
 
   extend Findable
