@@ -20,6 +20,7 @@ class Song
 
   extend Memorable
 
+  extend Findable
 
   #def self.reset_all
   #  self.all.clear
