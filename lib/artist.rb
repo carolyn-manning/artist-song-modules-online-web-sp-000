@@ -12,7 +12,7 @@ class Artist
     @@artists
   end
 
-  #include Memorable::InstanceMethods
+  include Memorable::InstanceMethods
 
   def initialize
    super
