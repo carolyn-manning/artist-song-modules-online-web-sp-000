@@ -18,8 +18,8 @@ class Song
     @@songs
   end
 
-  Memorable::InstanceMethods
-  Memorable::ClassMethods
+  include Memorable::InstanceMethods
+  extend Memorable::ClassMethods
 
   extend Findable
 
