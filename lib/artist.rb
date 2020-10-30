@@ -21,7 +21,8 @@ class Artist
     @@artists
   end
 
-  extend Memorable
+  Memorable::InstanceMethods
+  Memorable::ClassMethods
 
   include Paramable
 
